@@ -1,0 +1,21 @@
+data class UserAccount(val uuid: String, val email: String, val balance: Double)
+
+fun main() {
+    val facu = UserAccount("1","facuespaniol@gmail.com",240.000)
+    val clonFacu = UserAccount("1","facuespaniol@gmail.com",240.000)
+    val eric = UserAccount("2","ericnob1974@gmail",240.000)
+    println(facu.uuid)
+    println(facu.email)
+    println(facu.balance)
+    println(facu)
+    println("Facu igual a Facu? ${facu == clonFacu}")
+    println("Facu igual a Eric? ${facu == eric}")
+    println("Facu cobra lo mismo que Eric? ${facu.balance == eric.balance}")
+    println("Facu igual a Facu? ${facu.equals(clonFacu)}")
+    println("Facu igual a Eric? ${facu.equals(eric)}")
+    println("Facu cobra lo mismo que Eric? ${(facu.balance).equals(eric.balance)}")
+    println("Hashcode Facu: ${facu.hashCode()}")
+    println("Hashcode Eric: ${eric.hashCode()}")
+    println("Hashcode de Facu es el mismo que Eric? ${(facu.hashCode()).equals(eric.hashCode())}")
+    println("Hashcode de Facu es el mismo que clon de Facu? ${(facu.hashCode()).equals(clonFacu.hashCode())}")
+}
