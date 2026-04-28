@@ -1,10 +1,10 @@
 # Taller de Nuevas Tecnologias - Lic. en Informática - UNPSJB
 
-> “Repositorio de cursada de la materia Taller de Nuevas Tecnologias”
+> Repositorio de cursada de la materia Taller de Nuevas Tecnologias
 
-> “Facundo Español - Eric Anderson”
+> Facundo Español - Eric Anderson
 
-> “Docente Leonardo Morales”
+> Docente Leonardo Morales
 
 ---
 
